@@ -1,0 +1,188 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Change this to your desired color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+.navbar-nav .nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #f57c00;
+}
+.btn-outline-dark {
+    border-radius: 25px; /* Adjust this value for more or less roundness */
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+.hero-section {
+    height: 90vh;
+    background: #fff;
+    padding: 50px 0;
+    position: relative;
+}
+.hero-content {
+    max-width: 500px;
+}
+.hero-wrapper {
+    position: relative; /* Ensure proper positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container {
+    position: relative;
+    width: 500px;
+    z-index: 10;
+    top: -30px; /* Moves the image upwards */
+}
+
+.circles-container {
+    position: absolute;
+    left: 50%;
+    top: 70px; /* Moves the circles down */
+    transform: translate(-50%, 0);
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+}
+
+.image-circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.large-circle {
+    width: 500px;
+    height: 500px;
+    background: rgba(245, 124, 0, 0.4);
+    top: -60px;
+    left: -60px;
+}
+
+.medium-circle {
+    width: 400px;
+    height: 400px;
+    background: rgba(245, 124, 0, 0.3);
+    top: 20px;
+    left: 20px;
+}
+
+.small-circle {
+    width: 300px;
+    height: 300px;
+    background: rgba(245, 124, 0, 0.2);
+    top: 50px;
+    left: 50px;
+}
+
+
+.profile-img {
+    width: 600px; /* Increased from 350px */
+    height: 600px; /* Increased from 350px */
+    border-radius: 0%;
+    object-fit: cover;
+    z-index: 10;
+    position: relative;
+}
+.btn-custom {
+    background: #f57c00;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 600;
+}
+.btn-custom:hover {
+    background: #e56c00;
+}
+
+/* Ensure it clears any floating elements */
+.clearfix {
+    clear: both;
+}
+
+/* Experience Section Styling */
+.experience-section {
+    width: 100%;
+    background: #f9f9f9;
+    padding: 50px 0;
+    margin-top: 50px; /* Push it below */
+    display: block; /* Ensure it's full width */
+}
+
+/* Force the section to be full width */
+.experience-section .row {
+    display: block !important;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Progress Bar Styling */
+.progress {
+    height: 25px;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+}
+
+.progress-bar {
+    background-color: #0056b3 !important;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.progress {
+    height: 10px;
+    margin-bottom: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.progress-bar {
+    background-color: #ff7b00;
+    height: 100%;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.carousel-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0; /* Reduce padding to decrease spacing */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Reduce margin-top if needed */
+.carousel-container {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
